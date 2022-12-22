@@ -1,0 +1,3 @@
+/Users/nimnawijedasa/Desktop/fall/337/lab8/cmake-build-debug/CMakeFiles/lab8.dir
+/Users/nimnawijedasa/Desktop/fall/337/lab8/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/nimnawijedasa/Desktop/fall/337/lab8/cmake-build-debug/CMakeFiles/rebuild_cache.dir
