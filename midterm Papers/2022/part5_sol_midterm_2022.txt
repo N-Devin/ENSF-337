@@ -1,0 +1,18 @@
+#include <stdio.h>
+typedef struct clock{
+    int hours;
+    int minutes;
+    double seconds;
+}clock;
+
+int main() {
+    struct clock tim;
+    long mili = 18123400;
+    int hour = mili / (60*60*1000);
+    tim.hours = hour;
+    int min =  (mili /  (60*1000)) - (hour *60) ;
+    tim.minutes = min;
+    long sec = ( mili / 1000) - ((hour*60*60) + (min*60));
+    tim.seconds = sec;
+    printf("%d\n %d\n %lf\n ", tim.hours, tim.minutes, tim.seconds );
+}
